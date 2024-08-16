@@ -11,11 +11,12 @@ The FHR Surrogate Model is a low-fidelity model of an FHR system with a gFHR cor
   For usage details, please refer to the [readme](systemSurrogatePump/readme.md).
 
 ## Requirements
-* python3
-* NumPy
-* Pandas (for case tutorials)
-* Matplotlib (for case tutorials)
-* Jupyter Notebooks (for case tutorials)
+Version used during development indicated  
+* python3 (3.9.16)
+* NumPy (1.26.4)
+* Pandas (2.2.2) - for code tutorials
+* Matplotlib (3.9.0) - for code tutorials
+* Jupyter Notebooks (4.1.6) - for case tutorials
 
 # Quick Guide for Python Environment Setup
 
@@ -25,5 +26,5 @@ source .venv/bin/activate
 pip install numpy
 pip install pandas 
 pip install matplotlib
-pip install jupyter
+pip install jupyterlab
 ```
